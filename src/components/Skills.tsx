@@ -30,7 +30,7 @@ const SkillsSection: React.FC = () => {
       <div className="container mx-auto px-10">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-white-700 text-center mb-6"><u>My Skills</u></h2>
-        <div className="w-36 h-1 mx-auto bg-pink-00 mb-12"></div> {/* Teal Line */}
+        <div className="w-36 h-1 mx-auto bg-pink-00 mb-12"></div> 
 
         {/* Skills Container with Horizontal Scroll */}
         <div className="relative flex items-center">
@@ -50,19 +50,22 @@ const SkillsSection: React.FC = () => {
           >
             <SkillCard icon={<FaHtml5 />} title="HTML" description="" />
             <SkillCard icon={<FaCss3Alt />} title="CSS" description="" />
-            <SkillCard icon={<SiTypescript />} title="TypeScript" description="" />
-            <SkillCard icon={<FaJs />} title="JavaScript" description="" />
+            <SkillCard icon={<SiTypescript />} title="Type
+            Script" description="" />
+            <SkillCard icon={<FaJs />} title="Java
+            Script" description="" />
             <SkillCard icon={<SiNextdotjs />} title="Next.js" description="" />
-            <SkillCard icon={<SiNextdotjs />} title="  Ms office" description="" />
+            <SkillCard icon={<SiNextdotjs />} title="  MS Office" description="" />
             <SkillCard icon={<SiNextdotjs />} title=" In page" description="" />
             <SkillCard icon={<SiNextdotjs />} title=" Google slider" description="" />
-            <SkillCard icon={<FaGitAlt />} title="Git" description="" />
-           <SkillCard icon={<FaGitAlt />} title="Web development" description="" />
+            <SkillCard icon={<FaGitAlt />} title="Git Hub" description="" />
+           <SkillCard icon={<FaGitAlt />} title="Web 
+           development" description="" />
           </div>
 
           {/* Right Arrow (visible only on mobile) */}
           <button
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full hover:bg-pink-700 md:hidden"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 rounded-full hover:bg-blue-700 md:hidden"
             onClick={scrollRight}
             aria-label="Scroll Right"
           >

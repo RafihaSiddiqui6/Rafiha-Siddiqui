@@ -79,7 +79,8 @@ const About: FC = () => {
 >
 <Link href="/images/cv/mycv.pdf" target="_blank" rel="noopener noreferrer">
       <span className="text-white hover:bg-blue-600 font-semibold text-lg transition-all duration-200 transform hover:scale-105">
-        Hire Me
+        <Link href="mailto:rafihasiddiqui@gmail.com">Hire Me</Link> 
+
       </span>
     </Link>
 
@@ -107,7 +108,7 @@ const About: FC = () => {
   <div className="flex justify-center mt-8">
     <button className="px-6 py-3 text-lg font-semibold bg-black border-2 border-blue-500 animate-pulse text-white rounded-full shadow-md hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-110">
 
-     <Link href="/project">Explore My Work</Link> 
+     <Link href="/images/cv.jpeg">Explore My Work</Link> 
 
       <span className="ml-2 text-white">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">

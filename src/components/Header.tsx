@@ -1,11 +1,6 @@
-
-
-
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import logo from "../../public/images/Animation Gif.gif";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineRoundaboutRight } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
@@ -22,10 +17,8 @@ const Header = () => {
   return (
     <div>
       <header className="text-white body-font bg-black">
-        <div className="container mx-auto flex justify-between p-4 md:flex-row items-center">
-          <div id="logo">
-            <Image src={logo} alt="logo" width={120} height={120} />
-          </div>
+        <div className="container mx-auto flex justify-end p-4 md:flex-row items-end">
+      
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex text-xl font-bold transition space-x-5 items-center">

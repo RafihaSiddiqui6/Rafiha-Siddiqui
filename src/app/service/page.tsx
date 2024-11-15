@@ -13,7 +13,7 @@ const Service: FC = () => {
       <div className="animate-slide-left">
       <section className="text-center mb-16">
         <h1 className="text-5xl font-extrabold text-white mb-4">My Services</h1>
-        <p className="text-xl text-gray-200">We provide cutting-edge solutions tailored to your needs.</p>
+        <p className="text-xl text-gray-200">Professional services crafted for you.</p>
       </section>
 
       {/* Services List */}

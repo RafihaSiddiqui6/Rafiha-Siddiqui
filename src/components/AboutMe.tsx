@@ -27,8 +27,8 @@ I am committed to delivering high-quality, visually appealing web solutions with
 
         </p>
         <Link href="/about" passHref>
-          <button className="px-4 sm:px-6 py-2 sm:py-3 rounded-lg border-2  border-blue-700 hover:bg-white-700 transition duration-300">
-            Read More
+          <button className="px-4 sm:px-6 py-2 sm:py-3 rounded-lg border-2 font-bold border-blue-700 hover:bg-blue-200 transition duration-300">
+            More About me
           </button>
         </Link>
       </div>

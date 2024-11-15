@@ -8,8 +8,8 @@ const ThankYouSection: React.FC = () => {
   return (
     <div className="animate-slide-left">
       <div
-        className="bg-black text-white py-16 text-center animate-fadeIn bg-cover bg-center bg-fixed"
-        style={{ backgroundImage: "url('/images/newbg.jpg')" }}
+        className=" text-white py-16 text-center animate-fadeIn bg-cover bg-center bg-fixed"
+        style={{ backgroundImage: "url('/images/bg 3.jpg')" }}
       >
         <div className="container mx-auto px-6 bg-black bg-opacity-60 rounded-lg py-10">
           {/* Thank You Heading */}
